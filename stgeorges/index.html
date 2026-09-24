@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="St George's Anglican Church Newtown — a welcoming church community for worship, faith and fellowship.">
+  <title>St George's Anglican Church | Newtown</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header" id="top">
+    <nav class="navbar container" aria-label="Main navigation">
+      <a class="brand" href="#top" aria-label="St George's Anglican Church home">
+        <span class="brand-cross">✝</span>
+        <span><strong>St George's</strong><small>ANGLICAN CHURCH · NEWTOWN</small></span>
+      </a>
+
+      <div class="nav-links" id="navLinks">
+        <a href="#about">About</a>
+        <a href="#services">Worship</a>
+        <a href="#ministries">Ministries</a>
+        <a href="#events">Events</a>
+        <a href="#contact">Contact</a>
+        <a class="nav-cta" href="#visit">Plan a Visit</a>
+      </div>
+
+      <div class="nav-actions">
+        <button class="theme-toggle" id="themeToggle" type="button" aria-label="Switch to dark mode" title="Toggle day/night mode">
+          <span id="themeIcon">☾</span>
+        </button>
+        <button class="menu-toggle" id="menuToggle" type="button" aria-label="Open menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" aria-label="Welcome">
+      <div class="hero-slides">
+        <article class="hero-slide active" style="--bg:url('https://images.unsplash.com/photo-1438032005730-c779502df39b?auto=format&fit=crop&w=2000&q=85')"></article>
+        <article class="hero-slide active"
+    style="--bg:url('images/windowch.jpg')">
+  </article>
+        <article class="hero-slide" style="--bg:url('https://images.unsplash.com/photo-1507692049790-de58290a4334?auto=format&fit=crop&w=2000&q=85')"></article>
+      </div>
+      <div class="hero-overlay"></div>
+      <div class="hero-content container">
+        <p class="eyebrow">WELCOME TO ST GEORGE'S</p>
+        <h1>A place to <em>worship,</em><br>belong &amp; grow.</h1>
+        <p class="hero-copy">A warm Anglican community in Newtown where everyone is welcome. Come as you are, meet with God, and find your place among us.</p>
+        <div class="hero-buttons">
+          <a class="button primary" href="#visit">Plan Your Visit <span>→</span></a>
+          <a class="button light-outline" href="#services">Explore Worship</a>
+        </div>
+      </div>
+      <div class="slider-controls">
+        <button id="prevSlide" aria-label="Previous slide">←</button>
+        <div class="dots" id="dots"></div>
+        <button id="nextSlide" aria-label="Next slide">→</button>
+      </div>
+      <div class="scroll-note">SCROLL TO EXPLORE <span>↓</span></div>
+    </section>
+
+    <section class="welcome section" id="about">
+      <div class="container split">
+        <div class="section-copy">
+          <p class="eyebrow gold">A CHURCH FOR THE COMMUNITY</p>
+          <h2>Faith that brings us <em>together.</em></h2>
+          <p>St George's is a Christ-centred Anglican church committed to loving God, loving people, and serving our neighbourhood. Whether you have followed Jesus for years or are simply curious, there is a place for you here.</p>
+          <p>We gather around Scripture, prayer, worship and genuine friendship — creating space for people of every age and stage of life.</p>
+          <a class="text-link" href="#contact">Discover our story <span>→</span></a>
+        </div>
+        <div class="image-card">
+          <img src="https://images.unsplash.com/photo-1529070538774-1843cb3265df?auto=format&fit=crop&w=1200&q=85" alt="People gathered together in community">
+          <div class="image-caption"><strong>Come as you are.</strong><span>There is a place for you here.</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="worship section" id="services">
+      <div class="container">
+        <div class="section-heading centered">
+          <p class="eyebrow gold">JOIN US THIS SUNDAY</p>
+          <h2>Worship with us.</h2>
+          <p>Come for meaningful worship, biblical teaching, prayer and a welcoming community.</p>
+        </div>
+        <div class="service-grid">
+          <article class="service-card featured">
+            <div class="service-icon">✦</div>
+            <div>
+              <p class="card-kicker">SUNDAY MORNING</p>
+              <h3>Parish Eucharist</h3>
+              <p>Our principal Sunday gathering with Holy Communion, worship, Scripture and a message for the whole family.</p>
+              <strong>10:00 AM</strong>
+            </div>
+            <a href="#visit" aria-label="Plan your visit">→</a>
+          </article>
+          <article class="service-card">
+            <div class="service-icon">♪</div>
+            <div>
+              <p class="card-kicker">FAMILY &amp; YOUTH</p>
+              <h3>All-Age Worship</h3>
+              <p>Interactive worship and teaching designed to help children, young people and families grow together.</p>
+              <strong>10:00 AM · Selected Sundays</strong>
+            </div>
+            <a href="#ministries" aria-label="Explore ministries">→</a>
+          </article>
+          <article class="service-card">
+            <div class="service-icon">☼</div>
+            <div>
+              <p class="card-kicker">MIDWEEK</p>
+              <h3>Prayer &amp; Reflection</h3>
+              <p>A quieter gathering for prayer, reflection and encouragement in the middle of the week.</p>
+              <strong>Wednesday · 7:00 PM</strong>
+            </div>
+            <a href="#contact" aria-label="Contact the church">→</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="ministries section" id="ministries">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow gold">FIND YOUR PLACE</p>
+            <h2>Life together.</h2>
+          </div>
+          <p>Church is more than Sunday. Build friendships, discover your gifts and serve others through our ministries and community life.</p>
+        </div>
+        <div class="ministry-grid">
+          <article class="ministry-card large" style="--bg:url('https://images.unsplash.com/photo-1516627145497-ae6968895b74?auto=format&fit=crop&w=1000&q=85')">
+            <div><span>01</span><h3>Children &amp; Families</h3><p>Helping the next generation know they are loved, valued and part of God's family.</p></div>
+          </article>
+          <article class="ministry-card" style="--bg:url('https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=900&q=85')">
+            <div><span>02</span><h3>Community Groups</h3><p>Small groups, friendship and shared life beyond Sunday.</p></div>
+          </article>
+          <article class="ministry-card" style="--bg:url('https://images.unsplash.com/photo-1472162072942-cd5147eb3902?auto=format&fit=crop&w=900&q=85')">
+            <div><span>03</span><h3>Youth</h3><p>A safe space to ask questions, grow in faith and belong.</p></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="quote-section">
+      <div class="container quote-inner">
+        <div class="quote-mark">“</div>
+        <blockquote>Let us consider how we may spur one another on toward love and good deeds.</blockquote>
+        <cite>HEBREWS 10:24</cite>
+      </div>
+    </section>
+
+    <section class="events section" id="events">
+      <div class="container">
+        <div class="section-heading">
+          <div><p class="eyebrow gold">WHAT'S HAPPENING</p><h2>Upcoming events.</h2></div>
+          <a class="text-link" href="#contact">See all events <span>→</span></a>
+        </div>
+        <div class="event-list">
+          <article class="event">
+            <time><b>24</b><span>AUG</span></time>
+            <div><p class="card-kicker">SUNDAY · 10:00 AM</p><h3>Sunday Parish Eucharist</h3><p>Join us for worship, Holy Communion and fellowship.</p></div>
+            <a href="#visit">Details →</a>
+          </article>
+          <article class="event">
+            <time><b>29</b><span>AUG</span></time>
+            <div><p class="card-kicker">SATURDAY · 11:00 AM</p><h3>Community Coffee Morning</h3><p>Good coffee, good conversation and a warm welcome for everyone.</p></div>
+            <a href="#contact">Details →</a>
+          </article>
+          <article class="event">
+            <time><b>06</b><span>SEP</span></time>
+            <div><p class="card-kicker">SUNDAY · 12:00 PM</p><h3>Church Family Lunch</h3><p>Stay after worship and share a meal with the church family.</p></div>
+            <a href="#contact">Details →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="visit section" id="visit">
+      <div class="container visit-grid">
+        <div>
+          <p class="eyebrow gold">YOU'RE INVITED</p>
+          <h2>Planning your <em>first visit?</em></h2>
+          <p>We'd love to welcome you. You don't need to know the words, have all the answers, or dress a certain way. Just come and be yourself.</p>
+          <div class="visit-points">
+            <span>✓ Friendly welcome</span><span>✓ Accessible worship</span><span>✓ Refreshments after service</span>
+          </div>
+          <a class="button primary" href="#contact">Get in touch <span>→</span></a>
+        </div>
+        <div class="map-card">
+          <div class="map-pattern"></div>
+          <div class="map-pin">✦</div>
+          <div class="map-info"><strong>St George's Anglican Church</strong><span>Newtown · Please confirm local address before publishing</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact section" id="contact">
+      <div class="container contact-grid">
+        <div><p class="eyebrow gold">LET'S CONNECT</p><h2>We'd love to hear from you.</h2><p>Have a question, need prayer, or want to find out more? Send us a message and our team will get back to you.</p></div>
+        <form id="contactForm">
+          <label>Your name<input type="text" required placeholder="Your name"></label>
+          <label>Email address<input type="email" required placeholder="you@example.com"></label>
+          <label>Message<textarea required rows="4" placeholder="How can we help?"></textarea></label>
+          <button class="button primary" type="submit">Send message <span>→</span></button>
+          <p class="form-message" id="formMessage" role="status"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-grid">
+      <div class="footer-brand"><span class="brand-cross">✝</span><div><strong>St George's</strong><small>ANGLICAN CHURCH · NEWTOWN</small></div><p>A welcoming community seeking to love God, love people and serve our neighbourhood.</p></div>
+      <div><h4>EXPLORE</h4><a href="#about">About us</a><a href="#services">Worship</a><a href="#ministries">Ministries</a><a href="#events">Events</a></div>
+      <div><h4>CONNECT</h4><a href="#contact">Contact us</a><a href="#visit">Plan a visit</a><a href="#contact">Prayer</a></div>
+      <div><h4>WORSHIP</h4><p>Sunday · 10:00 AM</p><p>Wednesday · 7:00 PM</p><p>Newtown</p></div>
+    </div>
+    <div class="footer-bottom container"><span>© 2026 St George's Anglican Church. All rights reserved.</span><a href="#top">Back to top ↑</a></div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
